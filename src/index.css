@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 15s linear infinite;
+} */
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 30s linear infinite;
+    /* Adjust duration as needed */
+}
+
+.delay-animation {
+    animation: scroll 30s linear infinite;
+    animation-delay: 10s;
+    /* Adjust this value to control when the second row starts */
+}
